@@ -8,6 +8,7 @@ export async function* asyncFibonacciGenerator(count, delay) {
         [curr, next] = [next, curr + next];
     }
 }
+/*
 (async () => {
     console.log("Початок генерації чисел Фібоначчі...");
 
@@ -19,3 +20,4 @@ export async function* asyncFibonacciGenerator(count, delay) {
 })();
 
 asyncFibonacciGenerator(10, 500);
+*/
